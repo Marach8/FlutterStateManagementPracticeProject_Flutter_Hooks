@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class UsStreamExample extends HookWidget {
-  const UsStreamExample({super.key});
+class UseFutureAndUseMemoizedExample extends HookWidget {
+  const UseFutureAndUseMemoizedExample({super.key});
 
   @override
   Widget build(BuildContext context) {
