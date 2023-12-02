@@ -20,7 +20,7 @@ class UseFutureAndUseMemoizedExample extends HookWidget {
 }
 
 extension Marach<T> on Iterable<T?>{
-  Iterable<T> marach<E>([ E? Function(T?)? transform]) 
+  Iterable<T> marach<E>([E? Function(T?)? transform]) 
     => map(transform ?? (e) => e).where((e) => e != null).cast();
 }
 
